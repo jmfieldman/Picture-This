@@ -8,6 +8,7 @@
 
 #import "LoginViewController.h"
 #import <ParseFacebookUtils/PFFacebookUtils.h>
+#import "MainFrameViewController.h"
 
 @interface LoginViewController ()
 
@@ -35,6 +36,12 @@
     return self;
 }
 
+- (void) viewDidAppear:(BOOL)animated {
+    if ([PFUser currentUser]) {
+        UINavigationController *controller = [[UINavigationController alloc] initWithRootViewController:[MainFrameViewController sharedInstance]];
+        [self presentViewController:controller animated:NO completion:nil];
+    }
+}
 
 - (void) pressedLoginButton:(id)sender {
     
@@ -57,6 +64,11 @@
                     user[@"name"]      = result[@"name"];
                     user[@"gender"]    = result[@"gender"];
                     [user saveInBackground];
+                    
+                    /* If we get here, we've got good FB data */
+                    UINavigationController *controller = [[UINavigationController alloc] initWithRootViewController:[MainFrameViewController sharedInstance]];
+                    [self presentViewController:controller animated:YES completion:nil];
+                    
                 }
             }];
         }

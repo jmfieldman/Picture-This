@@ -13,6 +13,7 @@
 		355513A51A97DA2F0068A45B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 355513A41A97DA2F0068A45B /* Images.xcassets */; };
 		355513A81A97DA2F0068A45B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 355513A61A97DA2F0068A45B /* LaunchScreen.xib */; };
 		355513B41A97DA2F0068A45B /* Picture_ThisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 355513B31A97DA2F0068A45B /* Picture_ThisTests.m */; };
+		355A35801A9BDB9500F5E298 /* MainFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 355A357F1A9BDB9500F5E298 /* MainFrameViewController.m */; };
 		A5EF9C1C850F5DDCB2A7E025 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD85217AF548B49FC7441B11 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,8 @@
 		355513AD1A97DA2F0068A45B /* Picture ThisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Picture ThisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		355513B21A97DA2F0068A45B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		355513B31A97DA2F0068A45B /* Picture_ThisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Picture_ThisTests.m; sourceTree = "<group>"; };
+		355A357E1A9BDB9500F5E298 /* MainFrameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainFrameViewController.h; sourceTree = "<group>"; };
+		355A357F1A9BDB9500F5E298 /* MainFrameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainFrameViewController.m; sourceTree = "<group>"; };
 		5FA5374E86F50D8DC691E6D0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		BD85217AF548B49FC7441B11 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEDFAC827D170D77C65FC2E7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -90,6 +93,8 @@
 				3555139C1A97DA2F0068A45B /* AppDelegate.m */,
 				3555139E1A97DA2F0068A45B /* LoginViewController.h */,
 				3555139F1A97DA2F0068A45B /* LoginViewController.m */,
+				355A357E1A9BDB9500F5E298 /* MainFrameViewController.h */,
+				355A357F1A9BDB9500F5E298 /* MainFrameViewController.m */,
 				355513A41A97DA2F0068A45B /* Images.xcassets */,
 				355513A61A97DA2F0068A45B /* LaunchScreen.xib */,
 				355513971A97DA2F0068A45B /* Supporting Files */,
@@ -277,6 +282,7 @@
 				355513A01A97DA2F0068A45B /* LoginViewController.m in Sources */,
 				3555139D1A97DA2F0068A45B /* AppDelegate.m in Sources */,
 				3555139A1A97DA2F0068A45B /* main.m in Sources */,
+				355A35801A9BDB9500F5E298 /* MainFrameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
