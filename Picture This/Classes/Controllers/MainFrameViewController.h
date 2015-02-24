@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainFrameViewController : UIViewController
+@interface MainFrameViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+
+@property (nonatomic, strong) UITableView *tableView;
+
+@property (nonatomic, assign) int whichGamelist;
 
 + (MainFrameViewController*) sharedInstance;
 

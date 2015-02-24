@@ -14,6 +14,7 @@
 		355513B41A97DA2F0068A45B /* Picture_ThisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 355513B31A97DA2F0068A45B /* Picture_ThisTests.m */; };
 		3560A1031A9CD614005E29DE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3560A1001A9CD614005E29DE /* LoginViewController.m */; };
 		3560A1041A9CD614005E29DE /* MainFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3560A1021A9CD614005E29DE /* MainFrameViewController.m */; };
+		3560A1151A9D2709005E29DE /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3560A1141A9D2709005E29DE /* GameViewController.m */; };
 		A5EF9C1C850F5DDCB2A7E025 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD85217AF548B49FC7441B11 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,8 @@
 		3560A1001A9CD614005E29DE /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		3560A1011A9CD614005E29DE /* MainFrameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainFrameViewController.h; sourceTree = "<group>"; };
 		3560A1021A9CD614005E29DE /* MainFrameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainFrameViewController.m; sourceTree = "<group>"; };
+		3560A1131A9D2709005E29DE /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		3560A1141A9D2709005E29DE /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		5FA5374E86F50D8DC691E6D0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		BD85217AF548B49FC7441B11 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEDFAC827D170D77C65FC2E7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -140,6 +143,8 @@
 				3560A1001A9CD614005E29DE /* LoginViewController.m */,
 				3560A1011A9CD614005E29DE /* MainFrameViewController.h */,
 				3560A1021A9CD614005E29DE /* MainFrameViewController.m */,
+				3560A1131A9D2709005E29DE /* GameViewController.h */,
+				3560A1141A9D2709005E29DE /* GameViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -295,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3560A1151A9D2709005E29DE /* GameViewController.m in Sources */,
 				3555139D1A97DA2F0068A45B /* AppDelegate.m in Sources */,
 				3555139A1A97DA2F0068A45B /* main.m in Sources */,
 				3560A1031A9CD614005E29DE /* LoginViewController.m in Sources */,
