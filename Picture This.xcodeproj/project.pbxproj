@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		3555139A1A97DA2F0068A45B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 355513991A97DA2F0068A45B /* main.m */; };
 		3555139D1A97DA2F0068A45B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3555139C1A97DA2F0068A45B /* AppDelegate.m */; };
-		355513A01A97DA2F0068A45B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3555139F1A97DA2F0068A45B /* LoginViewController.m */; };
 		355513A51A97DA2F0068A45B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 355513A41A97DA2F0068A45B /* Images.xcassets */; };
 		355513A81A97DA2F0068A45B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 355513A61A97DA2F0068A45B /* LaunchScreen.xib */; };
 		355513B41A97DA2F0068A45B /* Picture_ThisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 355513B31A97DA2F0068A45B /* Picture_ThisTests.m */; };
-		355A35801A9BDB9500F5E298 /* MainFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 355A357F1A9BDB9500F5E298 /* MainFrameViewController.m */; };
+		3560A1031A9CD614005E29DE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3560A1001A9CD614005E29DE /* LoginViewController.m */; };
+		3560A1041A9CD614005E29DE /* MainFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3560A1021A9CD614005E29DE /* MainFrameViewController.m */; };
 		A5EF9C1C850F5DDCB2A7E025 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD85217AF548B49FC7441B11 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -33,15 +33,15 @@
 		355513991A97DA2F0068A45B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3555139B1A97DA2F0068A45B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3555139C1A97DA2F0068A45B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3555139E1A97DA2F0068A45B /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		3555139F1A97DA2F0068A45B /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		355513A41A97DA2F0068A45B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		355513A71A97DA2F0068A45B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		355513AD1A97DA2F0068A45B /* Picture ThisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Picture ThisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		355513B21A97DA2F0068A45B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		355513B31A97DA2F0068A45B /* Picture_ThisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Picture_ThisTests.m; sourceTree = "<group>"; };
-		355A357E1A9BDB9500F5E298 /* MainFrameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainFrameViewController.h; sourceTree = "<group>"; };
-		355A357F1A9BDB9500F5E298 /* MainFrameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainFrameViewController.m; sourceTree = "<group>"; };
+		3560A0FF1A9CD614005E29DE /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		3560A1001A9CD614005E29DE /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		3560A1011A9CD614005E29DE /* MainFrameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainFrameViewController.h; sourceTree = "<group>"; };
+		3560A1021A9CD614005E29DE /* MainFrameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainFrameViewController.m; sourceTree = "<group>"; };
 		5FA5374E86F50D8DC691E6D0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		BD85217AF548B49FC7441B11 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEDFAC827D170D77C65FC2E7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -89,12 +89,9 @@
 		355513961A97DA2F0068A45B /* Picture This */ = {
 			isa = PBXGroup;
 			children = (
+				3560A0FD1A9CD614005E29DE /* Classes */,
 				3555139B1A97DA2F0068A45B /* AppDelegate.h */,
 				3555139C1A97DA2F0068A45B /* AppDelegate.m */,
-				3555139E1A97DA2F0068A45B /* LoginViewController.h */,
-				3555139F1A97DA2F0068A45B /* LoginViewController.m */,
-				355A357E1A9BDB9500F5E298 /* MainFrameViewController.h */,
-				355A357F1A9BDB9500F5E298 /* MainFrameViewController.m */,
 				355513A41A97DA2F0068A45B /* Images.xcassets */,
 				355513A61A97DA2F0068A45B /* LaunchScreen.xib */,
 				355513971A97DA2F0068A45B /* Supporting Files */,
@@ -126,6 +123,25 @@
 				355513B21A97DA2F0068A45B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3560A0FD1A9CD614005E29DE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3560A0FE1A9CD614005E29DE /* Controllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3560A0FE1A9CD614005E29DE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3560A0FF1A9CD614005E29DE /* LoginViewController.h */,
+				3560A1001A9CD614005E29DE /* LoginViewController.m */,
+				3560A1011A9CD614005E29DE /* MainFrameViewController.h */,
+				3560A1021A9CD614005E29DE /* MainFrameViewController.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		41AFD3E1E8CCE28174942230 /* Pods */ = {
@@ -279,10 +295,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				355513A01A97DA2F0068A45B /* LoginViewController.m in Sources */,
 				3555139D1A97DA2F0068A45B /* AppDelegate.m in Sources */,
 				3555139A1A97DA2F0068A45B /* main.m in Sources */,
-				355A35801A9BDB9500F5E298 /* MainFrameViewController.m in Sources */,
+				3560A1031A9CD614005E29DE /* LoginViewController.m in Sources */,
+				3560A1041A9CD614005E29DE /* MainFrameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
