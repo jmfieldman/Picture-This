@@ -21,4 +21,9 @@
     return self;
 }
 
+- (void) setGame:(PFObject *)game {
+    _game = game;
+    self.title = game[@"caption"];
+}
+
 @end

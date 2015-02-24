@@ -100,7 +100,9 @@
     newGame[@"hostUser"] = [PFUser currentUser];
     newGame[@"caption"]  = caption;
     [newGame saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
-        [self.navigationController pushViewController:[[GameViewController alloc] init] animated:YES];
+        GameViewController *controller = [[GameViewController alloc] init];
+        controller.game = newGame;
+        [self.navigationController pushViewController:controller animated:YES];
     }];
     
 }
