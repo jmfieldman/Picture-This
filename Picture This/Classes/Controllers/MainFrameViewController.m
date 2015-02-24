@@ -16,7 +16,9 @@
 
 + (MainFrameViewController*) sharedInstance {
     static MainFrameViewController *singleton = nil;
-    if (singleton == nil) singleton = [[MainFrameViewController alloc] init];
+    @synchronized(self) {
+        if (singleton == nil) singleton = [[MainFrameViewController alloc] init];
+    }
     return singleton;
 }
 
